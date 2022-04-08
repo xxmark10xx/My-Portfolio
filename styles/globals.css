@@ -1,16 +1,25 @@
 /* this file is applied to all pages/components */
 html,
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: white;
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
+
+p {
+  color: chartreuse
+}
+
 
 * {
   box-sizing: border-box;
